@@ -1,15 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cifrado Cesar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Con amigas y en secreto</h1>
+  <div id="Pag1">
+    <p> Esta interfaz esta creada con el objetivo de poder poner en contacto a mujeres que hayan tomado la decisión de
+      abortar, con fuentes seguras tanto de información como para conseguir pastillas de forma segura.
+      Sabemos que estas en una situación muy dificil, pero manten la calma y sigue los siguientes pasos:
+    </p>
+    <form>
+      <input type="email" id="correo" placeholder="Ingresa tu correo">
+      <button class="Ingresar" id="Ingresar">Ingresar</button><br><br>
+    </form>
+  </div>
+
+  <div id="Pag2">
+    <p> En el siguiente recuadro comentanos en que podemos ayudarte (No se permiten caracteres especiales, ni la letra "ñ"): </p>
+    <div>
+      <form>
+        <textarea type="text" id="frase" placeholder="Ingresa el texto que deseas cifrar/descifrar" name="text-example"
+   autocomplete="off" cols="25" rows="5"> </textarea>
+      </form>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <p> El numero de Desplazamiento indica la cantidad de espacios que se recorrera para sustituir una letra por
+      otra y cifrar tu mensaje. Por ejemplo si ingresas "2" "a" se convierte en "c".</p>
+    <div>
+      <p>N° Desplazamiento: <input type="text" id="num" placeholder="Ingresa valor numérico" /></p>
+    </div>
+    <button id="btnCifrar">Cifrar</button>
+    <button id="btnDescifrar">Descifrar</button>
+
+    <div id="root">
+    </div>
+
+    <input type="submit" id="btnEnviar" value="Enviar">
+    
+  </div>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
