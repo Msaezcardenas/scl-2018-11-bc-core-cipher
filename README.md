@@ -24,7 +24,7 @@ https://trello.com/b/9IvN90XE/cesar
 
 ### Anexos: Imágenes 
 ![Pantalla 1 aplicación](Imagenes/imagen1.png)
-![Pantalla 2 aplicación](Imagenes/imagen2.png)
+![Pantalla 2 aplicación](Imagenes/Imagen2.png)
 
 ### GitHub
 https://github.com/Msaezcardenas/scl-2018-11-bc-core-cipher
